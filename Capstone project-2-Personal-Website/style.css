@@ -1,0 +1,211 @@
+body{
+    background-color: rgb(200, 240, 192);
+}
+
+.navbar{
+    padding: 1px;
+    font-family: "Lato";
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 5px;
+}
+
+header{
+    margin: 0;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    background-color: rgb(178, 237, 166) ;
+}
+
+.navbar ul li{
+    padding: 8px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:rgb(33, 45, 38);
+}
+.navbar ul li a:hover{
+    color:rgb(99, 149, 118);
+}
+
+#landing-page{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px dotted rgb(59, 98, 84);
+}
+
+
+#landing-page-text{
+    text-align: center;
+}
+#intro-t-1{
+    font-size: 60px;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    color: rgb(115, 202, 164);
+}
+
+#intro-t-2{
+    font-size: 30px;
+    font-family: "Lato";
+    color:rgb(53, 84, 70); ;
+}
+
+#about-me{
+    height: 80vh;
+    border-bottom: 5px dotted rgb(59, 98, 84);
+}
+
+.heading{
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size:50px;
+   display: flex;
+   justify-content: center;
+   color:rgb(122, 217, 198); ;
+}
+
+.photo-div{
+    display: flex;
+    justify-content: center;
+}
+
+#my-photo{
+    display: block;
+    border-radius: 50%;
+    height: 150px;
+}
+
+#about-me-p{
+    display: flex;
+    justify-content: center;
+    font-family: "Lato";
+    font-size: 25px;
+    color: rgb(14, 24, 18);
+    text-align: center;
+}
+#my-skills {
+    margin: 0;
+    height: 100vh;
+    border-bottom: 5px dotted rgb(59, 98, 84);
+}
+
+.skill-container {
+    display: flex;
+    width: 40%;
+    height: 300px;
+    flex-direction: row;
+
+}
+
+.skill-photos {
+    height: 100%;
+    margin-right: 10px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    font-family: "Lato";
+    color: rgb(14, 24, 18);
+}
+
+.skill-h1{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+#skill-con-2{
+   position: absolute;
+    width: 40%;
+    height: 300px;
+    right: 0;
+    z-index: -1;
+}
+
+.skill-photos-2{
+    height: 100%;
+    width: 70%;
+    margin-right: 10px;
+}
+
+#Projects{
+    height: 70vh;
+    border-bottom: 5px dotted rgb(59, 98, 84);
+}
+
+#project-main-con{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    flex-direction: row;
+}
+
+.project-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 310px;
+    width: 310px;
+    background-color: #51755c;
+    font-family: "Dancing Script";
+    border-radius: 5%;
+}
+
+.project-p{
+    color: aliceblue;
+    font-size: 1.75rem;
+
+}
+
+#Contact-me{
+    height: 60vh;
+    border-bottom: 5px dotted rgb(59, 98, 84);
+}
+
+#contact-con{
+    display: flex;
+    height: 250px;
+    font-family: "Lato";
+    font-size: 1.30rem;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.contact-img{
+    height: 40px;
+    padding-right: 4px;
+}
+
+#locate-contact-con{
+    display: flex;
+}
+
+#call-contact-con{
+    display: flex;
+}
+
+#email-contact-con{
+    display: flex;
+}
+
+#contact-img{
+    height: 55px;
+}

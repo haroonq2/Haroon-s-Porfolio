@@ -1,0 +1,55 @@
+#about-me{
+    height: 100vh;
+}
+
+#about-me-p{
+    font-size: 20px;
+}
+
+#my-skills{
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-container{
+    width: 100%;
+}
+
+.skill-photos{
+    height: 70%;
+}
+
+.skills-p{
+    font-size: 0.9rem;
+}
+
+.skill-h1{
+    font-size: 30px;
+}
+
+#skill-con-1{
+    width: 45%;
+}
+
+#skill-con-2{
+    /* position: absolute; */
+     width: 45%;
+     height: 300px;
+     /* right: 0; */
+     z-index: -1;
+ }
+
+ .skill-photos-2{
+    height: 70%;
+    /* width: 70%; */
+    margin-right: 10px;
+}
+
+#Projects{
+    height: 220vh;
+}
+
+#project-main-con{
+    flex-direction: column;
+}
