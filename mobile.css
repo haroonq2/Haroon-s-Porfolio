@@ -2,6 +2,11 @@
     height: 100vh;
 }
 
+.navbar ul{
+    /* justify-content: center; */
+    text-align: left;
+}
+
 #about-me-p{
     font-size: 20px;
 }
